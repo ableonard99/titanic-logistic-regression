@@ -125,6 +125,8 @@ class LogisticRegression:
         plt.show()
         plt.title("Accuracy")
         plt.plot(metric_graph["accuracy"])
+	plt.xlabel('Passengers')
+        plt.ylabel('Percentage')
         plt.show()
         
 
